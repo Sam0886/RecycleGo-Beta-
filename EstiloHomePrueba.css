@@ -2,6 +2,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+
 .body {
   justify-content: center;
   display: flex;
@@ -13,6 +26,7 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 .Home {
   width: 320px;
   height: 568px;
@@ -30,6 +44,7 @@
   width: 258px;
   height: 72px;
   margin: 0 auto;
+  margin-top: 55px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
@@ -40,6 +55,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
   background-color: #bafcd8;
 }
+
 .RecycleGo {
   margin: 0 auto;
 
@@ -72,27 +88,27 @@
 
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
 }
+
 .TextoJugar {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
   color: #00342b;
-  margin: 0 auto;
-
+  /* margin: 0 auto; */
+  /* height: 71px; */
   position: relative;
-  top: 50%;
-  transform: translate(0, -50%);
-
+  top: 20%;
+  /* transform: translate(0, -50%); */
   padding-right: 44px;
-  padding-bottom: 4px;
+  /* padding-bottom: 4px;*/
 }
 
 .botonPlay {
   position: relative;
-  top: -113.5%;
-  left: 35%;
-  scale: 59.8%;
+  left: 108px;
+  top: -80px;
+  width: 90px;
 }
 
 .botonLogro {
@@ -141,9 +157,28 @@
 }
 
 .TREA {
-  position: absolute;
-  top: 21.5%;
-  left: 14%;
-  scale: 60%;
+  position: relative;
+  top: 123px;
+  right: -64px;
+  /* scale: 60%; */
+  width: 238px;
   rotate: 335deg;
+
+}
+
+.home2 {
+  height: 100%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container2 {
+  margin-bottom: 70px;
 }
