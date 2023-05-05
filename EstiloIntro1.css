@@ -147,7 +147,6 @@ body {
 .Rectangle-13 {
   width: 84px;
   height: 61px;
-  margin: 29px 6px 21px 47px;
   padding: 1px 4px 1px 111px;
   border-radius: 16px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
@@ -199,9 +198,13 @@ body {
 }
 
 .container-footer {
-
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 30px;
+  position: sticky;
+  width: 100%;
+  bottom: 10px;
+  padding-bottom: 40px;
+
 }
