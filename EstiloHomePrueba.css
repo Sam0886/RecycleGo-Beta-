@@ -5,7 +5,7 @@
 body {
   min-height: 100vh;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -106,7 +106,7 @@ html {
 
 .botonPlay {
   position: relative;
-  left: 108px;
+  left: 140px;
   top: -80px;
   width: 90px;
 }
@@ -154,8 +154,8 @@ html {
 
 .TREA {
   position: relative;
-  top: 123px;
-  right: -64px;
+  top: 14px;
+  right: -82px;
   /* scale: 60%; */
   width: 238px;
   rotate: 335deg;
