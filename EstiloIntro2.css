@@ -16,26 +16,39 @@ body {
 
   overflow-x: hidden;
   overflow-y: hidden;
-
+  align-items: center;
 
 
 }
 
 .divPrincipal {
 
-  padding: 0px 0px 0px 0px;
   background-color: #fff;
   justify-content: center;
   align-items: center;
   display: flex;
-  flex-direction: column;
-  margin-left: 33px;
+  flex-direction: row;
+  margin-left: 0px;
+  
+ 
+
+  padding-top: 0px;
+  padding-left: 343px;
+  padding-right: 1vh;
+  padding-bottom: 15px;
+
+  position: relative;
+  scroll-snap-align: center;
+
+  overflow-x: auto;
 
 }
 
 .div1 {
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .div2 {
@@ -63,6 +76,7 @@ body {
   line-height: 46px;
   display: flex;
   align-items: center;
+  margin-bottom: 0px;
 
 }
 
@@ -146,50 +160,44 @@ body {
 }
 
 .Rectangle-13 {
-  width: 84px;
-  height: 61px;
-  padding: 1px 4px 1px 111px;
+  width: 104px;
+  height: 48px;
+  margin: 29px 15px 21px 5px;
+  padding: 1px 4px 1px 11px;
   border-radius: 16px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
-  background-color: #ffc8a9;
-
-  margin-left: 63px;
-  
-
-  top: 79%;
-  left: 27%;
+  background-color: #bafcd8;
 }
 
-.Siguiente {
-  width: 128px;
-  height: 27px;
-  margin: 0 auto;
+.TextoGo {
+   width: 46px;
+  height: 38px;
+  margin: 4px 43px 4px 0;
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
-  line-height: bold;
+  line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #fd7326;
+  color: #49d399;
 
-  position: relative;
-  top: 41%;
-  left: -111%;
-  transform: translate(0, -50%);
+  margin-top: 2px;
 
+  
 }
 
-.FlechaSiguiente {
+.FlechaGo {
 
   position: relative;
-  top: -31%;
-  left: 37%;
+  top: -43%;
+  left: 49%;
 
-  height: 46px;
+  height: 46px;  
+  padding-top: 4px;
 
-
+  transform: translate(0, -50%);
 }
 
 .container {
@@ -213,10 +221,145 @@ body {
 
   margin-bottom: 0px;
   padding-bottom: 19px;
+
+  margin-bottom: 19px;
 }
-.barra50{
+.barra100{
   width: 90%;
   margin-bottom: 29px;
   padding-left: 20px;
   height: 5px;
+}
+
+.CuadroNaranja1{
+
+  width: 135px;
+  height: 185px;
+  margin: 12px 21px 0 0;
+  padding: 126px 6px 3px 9px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+  background-color: #ffc8a9;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  margin-right: 21px;
+  margin-left: 21px;
+
+}
+
+.CuadrosNaranja{
+
+  width: 135px;
+  height: 185px;
+  margin: 12px 21px 0 0;
+  padding: 126px 6px 3px 9px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+  background-color: #ffc8a9;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  
+
+}
+
+.CuadroNaranja4{
+
+  width: 135px;
+  height: 185px;
+  margin: 12px 21px 0 0;
+  padding: 126px 6px 3px 9px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+  background-color: #ffc8a9;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 21px;  
+
+}
+
+.CuadroBlanco{
+
+width: 51%;
+height: 138px;
+
+margin: 0 21px 41px 0;
+padding: 4px 36px 4px 37px;
+
+
+
+border-radius: 16px;
+
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+
+background-color: #fff;
+
+align-items: center;
+align-content: center;
+}
+
+.ImagenTermo{
+
+position: relative;
+
+width: 62px;
+
+height: 130px;
+
+left: 5%;
+top: 0%;
+}
+
+.ImagenGorra{
+
+  position: relative;
+  
+  height: 93px;
+  left: -41%;
+  top: 13%;
+}
+
+.ImagenCamiseta {
+
+  position: relative;
+  
+  height: 119px;
+  left: -38%;
+  top: 6%;
+  }
+
+.TextoRegalos{
+
+    width: 118px;
+    height: 38px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #403d39;
+
+    position: relative;
+    left: 9%;
+    top: -22%;
+}
+
+.DivBarra{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  left: 11%;
+  top: 70.5%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
