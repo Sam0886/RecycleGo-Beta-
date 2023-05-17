@@ -212,7 +212,11 @@ body {
   align-items: center;
   justify-content: space-around;
   position: sticky;
+
   bottom: 10px;
+
+  padding-bottom: 0px;
+  margin-bottom: 43px;
 
 }
 
@@ -353,5 +357,6 @@ body {
   top: 70.5%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 
 }
