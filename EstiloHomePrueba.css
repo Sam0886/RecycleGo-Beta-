@@ -44,7 +44,7 @@ html {
   width: 258px;
   height: 72px;
   margin: 0 auto;
-  margin-top: 55px;
+  margin-top: 90px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
@@ -123,7 +123,7 @@ html {
   position: absolute;
 
   top: 94%;
-  left: 0.3rem;
+  left: 1%;
 }
 
 .botonAjustes {
@@ -144,16 +144,12 @@ html {
 .botonInfo {
   width: 54px;
   height: 54px;
-
   margin: -104px auto 0 14px;
-
   box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.6);
-
   border-radius: 50%;
   position: absolute;
-
   top: 104%;
-  left: 78%;
+  right: 3%;
 }
 
 .TREA {
