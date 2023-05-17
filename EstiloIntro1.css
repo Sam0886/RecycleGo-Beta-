@@ -209,3 +209,10 @@ body {
 
   position: inherit;
 }
+
+.barra50 {
+  width: 90%;
+  margin-bottom: 29px;
+  padding-left: 20px;
+  height: 5px;
+}
